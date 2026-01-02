@@ -1,3 +1,5 @@
+# number of  factorial 
+
 number = int(input("Enter Number: ")) 
 factorial = 1;
 
