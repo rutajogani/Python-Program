@@ -1,0 +1,9 @@
+# number of  factorial 
+
+number = int(input("Enter Number: ")) 
+factorial = 1;
+
+for i in range(1 , number + 1):
+        factorial *= i;
+
+print("Your Factorial Number is", factorial);
