@@ -1,3 +1,5 @@
+# # Armstrong Number
+
 def checkArmstrong(number):
     sum = 0
     ans = number
