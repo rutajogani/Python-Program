@@ -8,9 +8,10 @@ while number > 0:
     singleDigit = number % 10
     sum += singleDigit * singleDigit * singleDigit
     number = number / 10
-
+    
 if ans == sum:
-    print("This Number Is Armstrong")
+    print("This Number Is Armstrong Number")
 else:
-    print("This Number Is Normal")
+    print(sum)
+    print("This Number Is Normal Number")
 
