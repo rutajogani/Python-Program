@@ -1,9 +1,11 @@
 # number of  factorial 
 
 number = int(input("Enter Number: ")) 
-factorial = 1;
+num1 = 0
+num2 = 1
 
 for i in range(1 , number + 1):
-        factorial *= i;
-
-print("Your Factorial Number is", factorial);
+        text = num1 + num2
+        num1 = num2
+        num2 = text
+        print(text, end = " ")
