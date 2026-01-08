@@ -1,4 +1,4 @@
-# number of  factorial 
+# number of  factorial series
 
 number = int(input("Enter Number: ")) 
 num1 = 0
