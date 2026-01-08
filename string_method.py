@@ -1,3 +1,5 @@
+# string methods 
+
 string = """my favorite car is bmw.
 my favorite fruit is mango.
 my favorite game is badminton."""
