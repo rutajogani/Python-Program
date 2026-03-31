@@ -1,4 +1,4 @@
-student = {}
+student = []
 while True:
     print('1. Insert student recode')
     print('2. Update student recode')
@@ -29,14 +29,16 @@ while True:
             student[roll]["Division"] = input('Enter new div:')
             student[roll]["Marks"] = input('Enter new marks:')
             student[roll]["City"] = input('Enter new city:')
+            print('Updated successful')
         else: 
             print('student not found!')
 
-        print('Updated successful')
 
     elif choice == 3:
-        if roll == student:
+        roll = int(input('Enter Roll no:'))
+        if roll in student:
             del student[roll] 
+            print('-----Deleted successful-----')
         else: 
             print('student not found!')
     
